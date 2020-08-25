@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Срочный выкуп авто!</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="keywords" content="Выкуп авто, продать авто">
+    <meta name="description" content="Выкуп авто в Москве и Московской области">
+</head>
+
+<body>
+    <main class="page">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__logo">
+                    <img src="img/logo.png" alt="logo" class="logo">
+                </div>
+                <div class="header__contact">
+                    <div class="contact__links">
+                        <a class="contact__link whatsapp" href="https://wa.me/79857969199">
+                            <img class="contact__link-img" src="img/wath.svg">
+                        </a>
+                        <a class="contact__link viber" href="viber://chat?number=+79857969199">
+                            <img class="contact__link-img" src="img/viber.svg">
+                        </a>
+                        <a class="contact__link phone" href="tel:+79997894599">
+                            <img class="contact__link-img" src="img/tel.svg">
+                        </a>
+                        <a class="contact__link text" href="tel:+79997894599">
+                            +7 (999) 789-45-99
+                        </a>
+                    </div>
+                    <span class="contact__text">
+                        Работаем круглосуточно, без выходных
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <section class="main">
+            <div class="main__container container">
+                <h1 class="main__title">Срочный выкуп авто</h1>
+                <div class="main__items items">
+                    <div class="main__item item">
+                        <div class="main__icon icon">
+                            <img src="img/use.png" alt="used car" class="main__img img">
+                        </div>
+                        <span class="main__subtitle subtitle">Б/У</span>
+                    </div>
+                    <div class="main__item item">
+                        <div class="main__icon icon">
+                            <img src="img/credit.png" alt="credit car" class="main__img img">
+                        </div>
+                        <span class="main__subtitle subtitle">Кредитные</span>
+
+                    </div>
+                    <div class="main__item item">
+                        <div class="main__icon icon">
+                            <img src="img/zalog.png" alt="rent car" class="main__img img">
+                        </div>
+                        <span class="main__subtitle subtitle">Залоговые</span>
+                    </div>
+                    <div class="main__item item">
+                        <div class="main__icon icon">
+                            <img src="img/stopcar.png" alt="stop car" class="main__img img">
+                        </div>
+                        <span class="main__subtitle subtitle">Запретные</span>
+                    </div>
+                </div>
+                <a href="#callback__btn" class="main__button">Заказать обратный звонок!</a>
+                <div class="main__car">
+                    <img src="img/intro_car.png" alt="" class="main__image">
+                </div>
+            </div>
+        </section>
+
+        <section class="callback">
+            <div class="callback__container container">
+                <div class="form__wrap">
+                    <span class="callback__substring substring">
+                        Хотите продать авто по лучшей цене?<br>
+                        Заполните форму и мы перезвоним в течении нескольких минут!
+                    </span>
+                    <span class="callback__substring substring" id="phone!!!">1 шаг от выгодной продажи - звонок</span>
+                    <form class="form" method="post" enctype="multipart/form-data" action="/send.php">
+                        <div class="inputs">
+                            <input name="name" class="input" placeholder="Имя*" required>
+                            <input name="phone" id="phone" class="input" placeholder="Ваш телефон*" required>
+                            <button class="inputs__button" id="callback__btn" type="submit">
+                                Перезвонить!
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="why">
+            <div class="why__container container">
+                <h2 class="why__caption caption">Почему стоит нам позвонить?</h2>
+                <div class="why__items items">
+                    <div class="why__item item">
+                        <div class="why__icon icon">
+                            <img src="img/DKP.png" alt="used car" class="why__img img">
+                        </div>
+                        <span class="why__subtitle subtitle">Оформление ДКП</span>
+                        <span class="why__substring">
+                            Оформление сделки<br>
+                            Договор Купли-Продажи
+                        </span>
+                    </div>
+                    <div class="why__item item">
+                        <div class="why__icon icon">
+                            <img src="img/clock.png" alt="credit car" class="why__img img">
+                        </div>
+                        <span class="why__subtitle subtitle">Всего 30 минут</span>
+                        <span class="why__substring">
+                            Больше всего мы ценим<br>
+                            время наших клиентов
+                        </span>
+                    </div>
+                    <div class="why__item item">
+                        <div class="why__icon icon">
+                            <img src="img/money.png" alt="rent car" class="why__img img">
+                        </div>
+                        <span class="why__subtitle subtitle">Всё бесплатно!</span>
+                        <span class="why__substring">
+                            Все расходы по оценки авто<br>
+                            и выезд эксперта - бесплатны
+                        </span>
+                    </div>
+                    <div class="why__item item">
+                        <div class="why__icon icon">
+                            <img src="img/location.png" alt="stop car" class="why__img img">
+                        </div>
+                        <span class="why__subtitle subtitle">Расчёт на месте</span>
+                        <span class="why__substring">
+                            Удобным для Вас способом,<br>
+                            наличными или безналичным способом
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cars">
+            <div class="cars__container container">
+                <h2 class="cars__caption caption">Примеры выкупленных авто</h2>
+                <div class="cars__items">
+                    <div class="car">
+                        <span class="car__pics-wrap">
+                            <img src="img/cars/d3OmVdIzNZs.jpg" alt="Kia Sportage" class="car__pic _0">
+                            <img src="img/cars/-YELLh1yf78.jpg" alt="Kia Sportage" class="car__pic _1">
+                        </span>
+                        <div class="car__desc">
+                            <span class="car__title">
+                                Kia Sportage </span>
+                            <span class="car__price">
+                                Выкуплeн за: 690 000 ₽ </span>
+                            <p>
+                                Год: 2012<br>
+                                Пробег: 80 000 км<br>
+                                <strong>
+                                    Хорошее состояние, комплектация с полным приводом
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="car">
+                        <span class="car__pics-wrap">
+                            <img src="img/cars/20150626_143218.jpg" alt="Range Rover Vogue" class="car__pic _0">
+                            <img src="img/cars/20150626_143231.jpg" alt="Range Rover Vogue" class="car__pic _1">
+                        </span>
+                        <div class="car__desc">
+                            <span class="car__title">
+                                Range Rover Vogue </span>
+                            <span class="car__price">
+                                Выкуплeн за: 400 000 ₽ </span>
+                            <p>
+                                Год: 2006<br>
+                                Пробег: 190 000 км<br>
+                                <strong>
+                                    Запрет на регистрационные действия
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="car">
+                        <span class="car__pics-wrap">
+                            <img src="img/cars/ASI3Kmykew8.jpg" alt="Volkswagen Passat CC" class="car__pic _0">
+                            <img src="img/cars/jHPkmzu9Jak_1.jpg" alt="Volkswagen Passat CC" class="car__pic _1">
+                        </span>
+                        <div class="car__desc">
+                            <span class="car__title">
+                                Volkswagen Passat CC </span>
+                            <span class="car__price">
+                                Выкуплeн за: 480 000 ₽ </span>
+                            <p>
+                                Год: 2010<br>
+                                Пробег: 150 000 км<br>
+                                <strong>
+                                    Среднее состояние
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="car">
+                        <span class="car__pics-wrap">
+                            <img src="img/cars/Ikgm26xyY2w.jpg" alt="Suzuki Grand Vitara" class="car__pic _0">
+                            <img src="img/cars/izHsAZkLhiQ.jpg" alt="Suzuki Grand Vitara" class="car__pic _1">
+                        </span>
+                        <div class="car__desc">
+                            <span class="car__title">
+                                Suzuki Grand Vitara </span>
+                            <span class="car__price">
+                                Выкуплeн за: 280 000 ₽ </span>
+                            <p>
+                                Год: 2008<br>
+                                Пробег: 94 000 км<br>
+                                <strong>
+                                    В залоге, битая, на запчасти
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="car">
+                        <span class="car__pics-wrap">
+                            <img src="img/cars/fDkxMfMK6Wk.jpg" alt="Mazda CX-7" class="car__pic _0">
+                        </span>
+                        <div class="car__desc">
+                            <span class="car__title">
+                                Mazda CX-7 </span>
+                            <span class="car__price">
+                                Выкуплeн за: 500.000 ₽ </span>
+                            <p>
+                                Год: 2010<br>
+                                Пробег: 200.000 км<br>
+                                <strong>
+                                    Сделка проведена через банк с частичным погашением кредита
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="car">
+                        <span class="car__pics-wrap">
+                            <img src="img/cars/41863_1363750984_1.jpg" alt="ГАЗ Газель" class="car__pic _0">
+                        </span>
+                        <div class="car__desc">
+                            <span class="car__title">
+                                ГАЗ Газель </span>
+                            <span class="car__price">
+                                Выкуплeн за: 50.000 ₽ </span>
+                            <p>
+                                Год: 2008<br>
+                                Пробег: 200.000 км<br>
+                                <strong>
+                                    Кузов 5 метров, аннулирован учет, на запчасти
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="advantages__container container">
+                <h2 class="advantages__caption caption">Вам понравиться работать с нами, так как:</h2>
+                <ul class="advantages__checklist">
+                    <li>
+                        <div class="advantages__check check"></div>
+                        Мы окажем Вам помощь в снятии с учета и переоформлении за свой счет
+                    </li>
+                    <li>
+                        <div class="advantages__check check"></div>
+                        Лояльно отнесёмся к занижению стоимости авто в договоре купли продаже, по Вашему желанию
+                    </li>
+                    <li>
+                        <div class="advantages__check check"></div>
+                        Всегда рассмотрим автомобили со сложными юридическими проблемами
+                    </li>
+                    <li>
+                        <div class="advantages__check check"></div>
+                        Приедем в любой регион, в любое время дня и ночи
+                    </li>
+                    <li>
+                        <div class="advantages__check check"></div>
+                        Производим рассчет наличиными или на банковскую карту
+                    </li>
+                    <li>
+                        <div class="advantages__check check"></div>
+                        Не задаем лишних вопросов!
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="offer">
+            <div class="offer__container container">
+                <div class="offer__substring substring">
+                    Хотите получить выгодное предложение?<br> Заполните форму и мы перезвоним!
+                </div>
+
+                <div class="offer__items items">
+                    <div class="offer__item item">
+                        <div class="offer__icon icon">
+                            <img src="img/tel.png" alt="used car" class="why__img img">
+                        </div>
+                        <span class="offer__subtitle subtitle">Сразу оценем авто, <br> по телефону</span>
+                    </div>
+                    <div class="offer__item item">
+                        <div class="offer__icon icon">
+                            <img src="img/car.png" alt="credit car" class="offer__img img">
+                        </div>
+                        <span class="offer__subtitle subtitle">Приедем к Вам<br>и осмотрим авто бесплатно</span>
+                    </div>
+                    <div class="offer__item item">
+                        <div class="offer__icon icon">
+                            <img src="img/locdoc.png" alt="rent car" class="offer__img img">
+                        </div>
+                        <span class="offer__subtitle subtitle">На месте оформим все<br>документы</span>
+                    </div>
+                    <div class="offer__item item">
+                        <div class="offer__icon icon">
+                            <img src="img/cost.png" alt="stop car" class="offer__img img">
+                        </div>
+                        <span class="offer__subtitle subtitle">Вы получите<br> свои деньги</span>
+                    </div>
+                </div>
+                <a href="#callback__btn" class="offer__button">Перезвонить!</a>
+            </div>
+        </section>
+
+        <section class="documents">
+            <div class="documents__container container">
+                <h2 class="documents__caption caption">Что желательно, но не обязательно иметь при себе,</h2>
+                <div class="documents__substring substring">при продаже автомобиля</div>
+                <div class="documents__row-1">
+                    <div class="documents__col-1">
+                        <ul class="documents__checklist">
+                            <li>
+                                <div class="documents__check check"></div>
+                                Автомобильный паспорт (ПТС)
+                            </li>
+                            <li>
+                                <div class="documents__check check"></div>
+                                Свидетельство о регистрации ТС
+                            </li>
+                            <li>
+                                <div class="documents__check check"></div>
+                                Личный паспорт
+                            </li>
+                            <li>
+                                <div class="documents__check check"></div>
+                                Комплекты ключей и брелков
+                            </li>
+                        </ul>
+                        <h3 style="padding-top:12px">
+                            Работаем с любыми вариантами, гарантируем порядочность, честность и помощь с вашим авто.
+                        </h3>
+                    </div>
+                    <div class="documents__row-2">
+                        <img class="documents__img" src="img/documents.png"
+                            alt="Что необходимо иметь при себе при продаже автомобиля">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__text">
+                    <div class="footer__title">Срочный выкуп любых автомобилей</div>
+                    <p class="footer__subtitle">
+                        Показатель нашей работы – сотни довольных клиентов,<br> которые возвращаются к наши услугам и
+                        рекомендуют нас знакомым
+                    </p>
+                    <p class="footer__adress">
+                        <img class="footer_img" src="img/geo.svg">
+                        Москва, Ленинградское шоссе д. 16а (ТЦ Метрополис)<br>
+                    </p>
+                </div>
+                <div class="footer__contact">
+                    <div class="contact__links">
+                        <a class="contact__link whatsapp" href="https://wa.me/79857969199">
+                            <img class="contact__link-img" src="img/wath.svg">
+                        </a>
+                        <a class="contact__link viber" href="viber://chat?number=+79857969199">
+                            <img class="contact__link-img" src="img/viber.svg">
+                        </a>
+                        <a class="contact__link phone" href="tel:+79997894599">
+                            <img class="contact__link-img" src="img/tel.svg">
+                        </a>
+                        <a class="contact__link text footer-tel" href="tel:+79997894599">
+                            +7 (999) 789-45-99
+                        </a>
+                    </div>
+                </div>
+        </footer>
+    </main>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script>
+        $(function () {
+            $("#phone").mask("8(999) 999-99-99");
+        });
+    </script>
+</body>
+
+</html>
