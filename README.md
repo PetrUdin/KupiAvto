@@ -5,9 +5,11 @@
 * CSS
 * JavaScript
 ### Цели проекта:
-Сайт свёрстан в образовательных целях.
+Сайт свёрстан в образовательных целях. https://petrudin.github.io/KupiAvto/
 
-### Screenshots:
+### GitHub Pages: 
+
+### Screenshots:<https://petrudin.github.io/KupiAvto/>
 
 
 ![Alt text](/screenshots/1.png)
