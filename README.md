@@ -7,7 +7,6 @@
 ### Цели проекта:
 Сайт свёрстан в образовательных целях. 
 
-### GitHub Pages: <https://petrudin.github.io/KupiAvto/>
 
 ### Screenshots:
 
