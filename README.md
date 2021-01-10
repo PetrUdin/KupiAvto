@@ -5,7 +5,7 @@
 * HTML
 * CSS
 * JavaScript
-### ссылка на GitHub Pages:<https://petrudin.github.io/KupiAvto/>
+### ссылка на GitHub Pages: <https://petrudin.github.io/KupiAvto/>
 ### Screenshots:
 
 
