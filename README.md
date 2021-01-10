@@ -1,10 +1,11 @@
 # "Авто выкуп"
 ## Одностраничный сайт для компании занимающейся выкупом автомобилей
+
 ### Стек технологий:
 * HTML
 * CSS
 * JavaScript
-
+### ссылка на GitHub Pages:<https://petrudin.github.io/KupiAvto/>
 ### Screenshots:
 
 
